@@ -1,0 +1,1 @@
+@include('plantillas/perfiles/informacion')

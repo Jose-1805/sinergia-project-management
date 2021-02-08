@@ -1,0 +1,1 @@
+<p>Este proyecto ha sido enviado a una convocatoria, una vez sea aprobado o descartado por la convocatoria se le informará vía email y/o por nuestro sistema SINERGIA.</p>

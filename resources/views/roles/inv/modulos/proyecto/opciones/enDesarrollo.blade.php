@@ -1,0 +1,1 @@
+<a class="btn teal white-text waves-effect waves-light col s12" href="{{asset('/inv/mis-tareas/'.\Illuminate\Support\Facades\Crypt::encrypt($perfil->id))}}">Mis tareas</a>

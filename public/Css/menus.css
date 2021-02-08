@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/03/2015, 12:04:36 PM
+    Author     : lucho_000
+*/
+
+
+#contenedorMenusNavegacion{
+    margin-top: -19px;
+    position: absolute;
+    width: 100%;
+}
+.menuNavegacion{
+    height: 100%;
+    text-align: center;
+    background-color: #FF9F49;
+    padding: 0px;
+    box-shadow: inset 0px -3px 8px rgba(255,255,255,.6);
+}
+
+.menuNavegacionMovil{
+    z-index: 3;
+    height: auto;
+    text-align: center;
+    background-color: #FF9F49;
+    padding: 0px;
+    display: none;
+}
+
+
+.menuNavegacion ul, .menuNavegacionMovil ul{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+
+.menuNavegacion ul li, .menuNavegacionMovil ul li{
+    opacity: .9;
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    transition-duration: 400ms;
+    transition-property: all;
+    -webkit-transition-duration: 400ms;
+    -webkit-transition-property: all;
+    -moz-transition-duration: 400ms;
+    -moz-transition-property: all;
+    -o-transition-duration: 400ms;
+    -o-transition-property: all;
+}
+
+.menuNavegacionMovil ul li{
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,0.1);
+}
+
+.menuNavegacion ul li a:link, .menuNavegacionMovil ul li a:link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menuNavegacion ul li a:visited,.menuNavegacionMovil ul li a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menuNavegacion ul li:hover{
+    opacity: 1;
+    background-color:#FF9F49;
+    border-bottom-style:solid;
+    border-bottom-color:#FFFFFF;
+    border-bottom-width:4px;
+}
+
+.menuNavegacionMovil ul li:hover{
+    opacity: 1;
+    background-color:#FF9F49;
+    border-bottom-style:solid;
+    border-bottom-color:#FFFFFF;
+    border-bottom-width:3px;
+}
+
+.dropdown-content li a{
+    color: #FF9F49;
+}
+
+.dropdown-content{
+    z-index: 100000;
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+.dropdown-content li a:hover{
+    color:#FF9F49;
+}
+
+/*
+color verde
+
+#contenedorMenusNavegacion{
+    margin-top: -19px;
+    position: absolute;
+    width: 100%;
+}
+.menuNavegacion{
+    height: 100%;
+    text-align: center;
+    background-color: #238276;
+    padding: 0px;
+}
+
+.menuNavegacionMovil{
+    z-index: 3;
+    height: auto;
+    text-align: center;
+    background-color: #238276;
+    padding: 0px;
+    display: none;
+}
+
+
+.menuNavegacion ul, .menuNavegacionMovil ul{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+
+.menuNavegacion ul li, .menuNavegacionMovil ul li{
+    opacity: .8;
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    transition-duration: 400ms;
+    transition-property: all;
+    -webkit-transition-duration: 400ms;
+    -webkit-transition-property: all;
+    -moz-transition-duration: 400ms;
+    -moz-transition-property: all;
+    -o-transition-duration: 400ms;
+    -o-transition-property: all;
+}
+
+.menuNavegacionMovil ul li{
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,0.1);
+}
+
+.menuNavegacion ul li a:link, .menuNavegacionMovil ul li a:link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menuNavegacion ul li a:visited,.menuNavegacionMovil ul li a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menuNavegacion ul li:hover{
+    opacity: 1;
+    background-color:#238276;
+    border-bottom-style:solid;
+    border-bottom-color:#FFFFFF;
+    border-bottom-width:4px;
+}
+
+.menuNavegacionMovil ul li:hover{
+    opacity: 1;
+    background-color:#238276;
+    border-bottom-style:solid;
+    border-bottom-color:#FFFFFF;
+    border-bottom-width:3px;
+}
+
+.dropdown-content li a{
+    color: #238276;
+}
+
+.dropdown-content{
+    z-index: 100000;
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+.dropdown-content li a:hover{
+    color:#238276;
+}
+
+*/

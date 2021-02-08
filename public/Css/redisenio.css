@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/03/2015, 11:53:37 AM
+    Author     : lucho_000
+*/
+
+.btn:hover, btn-large:hover,.btn:link, btn-large:link{
+    text-decoration: none;
+    color: #FF9F49;
+}
+
+
+.collection a.collection-item {
+    line-height: 3px !important;
+}
+
+.collection a.collection-item i{
+    line-height: 8px !important;
+}
+
+.pagination li.active{
+    color: #FFF;
+    background-color: #00897b;
+}
+
+.collapsible-body{
+    padding: 2em;
+}
+
+.collapsible-body p{
+    padding: 0px !important;
+}

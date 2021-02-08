@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+	 <title>Tabs</title>
+	 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	 <meta name="author" content="Jose Luis Capote Mosquera">
+	 <meta name="vieport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no ">
+	 <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	 <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	 <script type="text/javascript" src="inicializar.js"></script>
+	</head>
+
+	<body>
+	 	<div class="row">
+	 		<p class="tituloMediano titulo-principal-pagina">Perfil - asignar evaluador <i class="mdi-action-assignment-ind"></i></p>
+	 		
+	 		<div class="col s12 m7">
+		 		<p class="tituloMediano">Titulo</p>
+		 		<p>Titulo del perfil</p>
+		 		<p class="tituloMediano">Proponente</p>
+		 		<p>Nombre del proponente</p>
+	 		</div>
+
+	 		
+	 		<div class="col s12 m5" style="background-color: rgba(255,255,255,.9);">
+	 			<p class="tituloMediano">Seleccione un evaluador</p>
+	 			<p>
+		 			<input type="radio" name="grupo" id="radio1"/>
+		 			<label for="radio1">Nombre del evaluador</label>
+	 			</p>
+
+	 			<p>
+		 			<input type="radio" name="grupo" id="radio2"/>
+		 			<label for="radio2">Nombre del evaluador</label>
+	 			</p>
+	 			
+	 		</div>
+
+	 		<div class="col s12">
+		 		<input type="checkbox" id="checkInformarViaCorreo"/>
+		 		<label for="checkInformarViaCorreo">Informar vía correo electronico</label>
+	 		</div>
+	 		<div class="col s12">
+	 			<a class="btn waves-effect waves-light">asignar</a>
+	 		</div>
+	 	</div>
+	</body>
+</html>

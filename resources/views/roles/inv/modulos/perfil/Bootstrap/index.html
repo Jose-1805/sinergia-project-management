@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+	 <title>Tabs</title>
+	 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	 <meta name="author" content="Jose Luis Capote Mosquera">
+	 <meta name="vieport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no ">
+	 <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	 <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	</head>
+
+	<body>
+	 	<div class="row">
+	 		<form>
+	 			<div class="col s12 m3 offset-m2">
+
+	 				<h5 class="teal-text text-darken-1" style="margin-bottom: 40px; border-bottom: solid 1px #000000; text-align:center; padding-bottom:5px;">Imagen</h5>	
+
+	 				<input type="file" style="width: 100%; height: 152px;" />
+
+
+	 				<h5 class="teal-text text-darken-1" style="margin-bottom: 30px; border-bottom: solid 1px #000000; text-align:center; padding-bottom:5px;">Cotraseña</h5>
+	 				<div class="input-field ">
+	 					<input type="password" id="txtContrasenaNueva" name="txtContrasenaNueva" class="validate">
+	 					<label for="txtContrasenaNueva">Contraseña nueva</label>
+	 				</div>
+
+	 				<div class="input-field">
+	 					<input type="password" id="txtContrasenaNuevaVerif" name="txtContrasenaNuevaVerif" class="validate">
+	 					<label for="txtContrasenaNuevaVerif">Verifique la nueva contraseña</label>
+	 				</div>
+	 			</div>
+
+	 			<div class="col s12 m5">
+	 				<h5 class="teal-text text-darken-1" style="margin-bottom: 40px; border-bottom: solid 1px #000000; text-align:center; padding-bottom:5px;">Datos personales</h5>
+	 				<div class="input-field">
+	 					<input type="text" id="txtNombre" name="txtNombre" class="validate">
+	 					<label for="txtNombre">Nombres</label>
+	 				</div>
+
+	 				<div class="input-field">
+	 					<input type="text" id="txtApellido" name="txtApellido" class="validate">
+	 					<label for="txtApellido">Apellidos</label>
+	 				</div>
+
+	 				<div class="input-field">
+	 					<input type="number" id="txtCelular" name="txtCelular" class="validate">
+	 					<label for="txtCelular">Celular</label>
+	 				</div>
+
+	 				<div class="input-field">
+	 					<input type="number" id="txtTelefono" name="txtTelefono" class="validate">
+	 					<label for="txtTelefono">Telefono</label>
+	 				</div>
+
+	 				<div class="input-field">
+	 					<input type="email" id="txtCorreo" name="txtCorreo" class="validate">
+	 					<label for="txtCorreo">Correo electronico</label>
+	 				</div>
+	 			</div>
+	 			
+	 			<div class="col s12">
+	 				<br>
+	 				<br>
+	 				<br>
+	 			<div class=" col s10 offset-s1 divider teal"></div>
+	 				<br>
+	 				<div class="col s12">
+	 					<div class="input-field col s10 offset-s1 m4 offset-m2 l4 offset-l3">
+	 						<i class="mdi-action-lock prefix"></i>
+	 						<input type="password" id="txtContrasena" name="txtContrasena" class="validate">
+	 						<label for="txtContrasena">Contraseña actual</label>
+	 					</div>
+
+	 					<div class="col s10 offset-s1 m4 l2">
+	 						<a class="teal btn waves-effect waves-light" style="margin-top: 20px;">guardar</i></a>
+	 					</div>
+	 				</div>
+	 				
+	 			</div>	
+	 		</form>
+	 	</div>
+	</body>
+</html>

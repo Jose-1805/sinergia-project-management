@@ -1,0 +1,46 @@
+.opciones-contenido-web{
+    text-align: center;
+    /*border-right: 2px dashed #dbdbdb;*/
+}
+
+.contenedor-opcion{
+    padding: 5px !important;
+}
+
+.modal{
+    z-index: 10001 !important;
+}
+
+.lean-overlay-editable{
+    display: block;
+    opacity: 0.5;
+    z-index: 10000 !important;
+}
+
+.contenido-contenedor{
+    overflow-x: auto !important;
+}
+
+#contenedor-modals{
+    display: none;
+}
+
+#contenido *:hover{
+    border: 1px dashed #00a9a9;
+}
+
+#contenido i,#contenido .contenido-btn-propiedades{
+    font-size: medium !important;
+}
+
+#contenido i,#contenido .contenido-btn-propiedades{
+    border: none !important;
+}
+
+.contenedor-btn-elemento i{
+    margin: 2px !important;
+}
+
+.contenido-btn-propiedades{
+    color: #009efe;
+}

@@ -1,0 +1,45 @@
+.btn-slide-info{
+    width: 50px;
+    height: 30%;
+    position: absolute;
+    z-index: 1000;
+    float: left;
+    margin-top: 10%;
+}
+
+.btn-slide-info i{
+    font-size: 35px;
+    float: left;
+    line-height: 400%;
+    color: rgba(0,0,0,.4);
+    cursor: pointer;
+}
+
+.btn-slide-info i:hover{
+    color: rgba(0,0,0,.8);
+}
+
+.btn-right-desktop i,.btn-right-movil i{
+    float: right;
+}
+
+.btn-right-desktop{
+    right: 10%;
+}
+
+
+.btn-left-movil,.btn-right-movil{
+    margin-top: 15%;
+}
+
+.btn-left-movil{
+    left: 5%;
+}
+
+.btn-right-movil{
+    right: 5%;
+}
+
+.contPerfiles{
+    padding: 10px 0px !important;
+}

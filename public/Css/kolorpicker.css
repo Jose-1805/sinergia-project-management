@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* kolorpicker palette styles */
+
+div.kolorPicker-wrapper {position:relative !important;}
+input.kolorPicker {
+    height:15px;
+    padding:2px 0 2px 5px;
+    color: transparent !important;
+    /*border:1px solid #666666 ;*/
+    /*width:25px;/*
+    font-size:12px;
+    line-height:15px;*/
+    background-image: url(images/color-wheel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 30px 30px;*/
+    /*-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;*/
+    /*font-family: Verdana,Arial,sans-serif;*/
+    /*position:relative !important;*/
+    /*float:left;*/
+    /*margin:0 0 20px 0;*/
+}
+input.kolorPicker::-ms-clear {display: none;}
+div.kolorpicker-palette { float: left; margin: 0 0 6px -17px;width:95% !important;position:relative;display:inline;}
+div.kolorpicker-palette ul { margin:0; padding-left:20px;}
+div.kolorpicker-palette ul li { list-style: none; float: left; width: 23% !important; height: 22px; background: #D0DFE5; border: 1px solid #666666; font-size: 10px; line-height:12px; text-align: center; margin: 2px 2px 2px 2px; padding: 3px 3px 4px 3px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 4px; color: #353448; cursor: pointer; }
+#kolorPicker .kolorpicker-palette-select { background: #353448; color: #D0DFE5; }
+div.x-close-box { float: right !important; width: 15px; height: 22px; font-size: 10px; line-height:12px; background: #353448; border: 1px solid #666666; text-align: center; padding: 3px 3px 4px 3px; margin: 0 2px 0 0; display: block; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; 4px; color: #ffffff; cursor: pointer; }
+#kolorPicker { border: 1px solid #353448; margin: 0; background: #f5f9fb; padding: 7px 5px 5px 5px; color: #fff; width: 300px; height: auto; position: absolute; top: 20px; left: 0px; cursor:pointer; font: 13px/18px Verdana,Arial,sans-serif;}
+
+
+div#kolorPicker table td.tile {line-height:20px;}
+
+.kolorPickerUI { margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; opacity: 0.0; position: fixed; }
